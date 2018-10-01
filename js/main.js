@@ -1,3 +1,4 @@
+//Header Backgroung on scroll
 $(window).on('scroll', function() {
     if($(window).scrollTop()) {
         $('#nav-wrap').addClass('black');
@@ -7,6 +8,7 @@ $(window).on('scroll', function() {
     }
 });
 
+//Back on top
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#go-top').fadeIn(200);    // Fade in the arrow
@@ -23,7 +25,7 @@ $('#go-top').click(function() {      // When arrow is clicked
 
 
 
-
+//Dropdown Menu
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
